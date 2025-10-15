@@ -14,7 +14,7 @@ return {
             update_cwd = true,
 		}
     }
--- <leader>cd :cd %:p:h<CR>:pwd<CR>
+
     vim.g.nvim_tree_respect_buf_cwd = 1 
     vim.keymap.set('n', '<leader>cd', ':cd %:p:h<CR>:pwd<CR>', { desc = 'Nvim-tree set current folder' })
 
