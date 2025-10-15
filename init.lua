@@ -25,5 +25,5 @@ vim.api.nvim_set_keymap(  't'  ,  '<Leader><ESC>'  ,  '<C-\\><C-n>'  ,  {noremap
 
 vim.wo.number = true
 vim.wo.relativenumber = true
-vim.opt.statuscolumn = "%s %{v:lnum} %{v:relnum}"
+vim.opt.statuscolumn = "%s %{v:lnum} %{v:relnum} "
 
